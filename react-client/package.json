@@ -1,0 +1,21 @@
+{
+  "name": "react-client",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "sh build.sh",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "create-component": "sh new-component.sh"
+  }
+}

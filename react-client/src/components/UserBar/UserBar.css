@@ -1,0 +1,32 @@
+.user-bar {
+  height: 3rem;
+  width: 100%;
+  text-align: right;
+  background-color: #37474F;
+  border-bottom: 0.5rem solid #d50000;
+  color: white;
+  line-height: 3rem;
+}
+
+.user-bar > img {
+  margin-top: 2px;
+}
+
+.user-bar > span {
+  vertical-align: text-bottom;
+  display: inline-block;
+  padding: 0 0.5rem;
+}
+
+.user-bar form {
+  vertical-align: text-bottom;
+  display: inline-block;
+  padding: 0 0.5rem;
+}
+
+.user-bar input {
+  background-color: transparent;
+  border: 0;
+  font-size: 0.8rem;
+  color: #F5F5F5;
+}

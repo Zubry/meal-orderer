@@ -1,0 +1,53 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FAFAFA;
+  padding: 0 2rem;
+  position: relative;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+div.auth {
+  max-width: 650px;
+  min-width: 300px;
+  min-height: 350px;
+  width: 20%;
+  height: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 1px solid #CFD8DC;
+  background-color: #ECEFF1;
+}
+
+div.header-merge {
+  background-color: #e53935;
+  border-bottom: 0.5em solid #d50000;
+}
+
+div.header-merge h1 {
+  margin: 0;
+  padding: 0.5em;
+  color: #FAFAFA;
+}
+
+div.auth-links a {
+  font-family: sans-serif;
+}
+
+div.auth-links img {
+  padding-top: 1em;
+  width: 250px;
+  margin: auto;
+  display: block;
+}

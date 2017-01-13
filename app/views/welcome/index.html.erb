@@ -1,0 +1,16 @@
+<% if current_user.blank? %>
+  <div class="auth">
+    <div class="header-merge">
+      <h1>Please Sign In</h1>
+    </div>
+    <div class="auth-links">
+      <a href="/auth/github"><img src="/assets/Octocat/Octocat.png"></a>
+      <%= link_to 'Sign In with Github', '/auth/github' %>
+    </div>
+  </div>
+  <link href="css/auth.css" rel="stylesheet">
+<% else %>
+  <div id="root"></div>
+  <link href="css/react.css" rel="stylesheet">
+  <script src="js/react.js"></script>
+<% end %>
