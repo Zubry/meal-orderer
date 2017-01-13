@@ -4,7 +4,7 @@ import './App.css';
 
 import MonterailAPI from './api';
 
-const api = new MonterailAPI('http://localhost:3000/api/v1');
+const api = new MonterailAPI('https://meal-orderer.herokuapp.com/api/v1');
 
 import UserBar from './components/UserBar';
 import OrderList from './components/OrderList';
